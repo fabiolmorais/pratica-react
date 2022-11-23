@@ -1,9 +1,7 @@
 // components
-import FirstComponent from "./components/FirstComponent";
-import TemplateExpressions from "./components/TemplateExpressions";
-import MyComponent from "./components/MyComponent";
-import Events from "./components/Events";
-import Challenge from "./components/Challenge";
+import ManageData from "./Components/ManageData";
+import ListRender from "./Components/ListRender";
+
 
 // styles / CSS
 import "./App.css";
@@ -11,12 +9,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Fundamentos React</h1>
-      <FirstComponent />
-      <TemplateExpressions />
-      <MyComponent />
-      <Events />
-      <Challenge />
+      <h1>Avançando em React</h1>
+      <ManageData />
+      <ListRender />
     </div>
   );
 }
